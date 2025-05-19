@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="Permissions-Policy" content="accelerometer=()"/>
+        <title>OnlyTest</title>
+        <link rel="stylesheet" href="Av.css" />
+        <script src="https://smartcaptcha.yandexcloud.net/captcha.js" defer></script>
+    </head>
+
+    <body>
+        <script src="script.js"></script>
+        <header>
+            
+         <h1>OnlyTest.</h1>
+            
+            <div>
+            <p><a href="Avtoriz.html">Авторизация /</a> <a href="index.html">/ Регистрация</a></p>
+            </div>
+    </header>
+        <form action="login.php" method="post">
+            <h2> Авторизация </h2>
+        <input type="text" placeholder="Почта / Телефон" name="email">
+        <input type="password" placeholder="Пароль" name="password">
+        <div style="height: 100px" id="captcha-container" class="smart-captcha" data-sitekey="ysc1_ST7eEgUw1JgS4s7w1w0LXkACSqU8oLZJQfqtvThadf846b17"></div>
+        <button type="submit" name="button2"> Авторизоваться </button>
+        </form>
+    </body>
+</html>
